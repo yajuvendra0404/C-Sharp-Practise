@@ -22,7 +22,7 @@ namespace ArraysPractise
             }
 
             Console.WriteLine("Jagged Array:");
-            int[][] JaggedArr = new int[4][]; // jagged array with 4 rows, but different number of columns in each row
+            int[][] JaggedArr = new int[4][]; // Jagged array with 4 rows, but different number of columns in each row
             JaggedArr[0] = new int[] { 1, 2, 3, 5, 6 };
             JaggedArr[1] = new int[] { 4, 9, 1, 8 };
             JaggedArr[2] = new int[] { 2, 1, 1 };
