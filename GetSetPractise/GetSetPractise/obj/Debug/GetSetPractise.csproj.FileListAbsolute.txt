@@ -1,0 +1,7 @@
+C:\Users\yajuv\source\repos\C-Sharp-Practise\GetSetPractise\GetSetPractise\bin\Debug\GetSetPractise.exe.config
+C:\Users\yajuv\source\repos\C-Sharp-Practise\GetSetPractise\GetSetPractise\bin\Debug\GetSetPractise.exe
+C:\Users\yajuv\source\repos\C-Sharp-Practise\GetSetPractise\GetSetPractise\bin\Debug\GetSetPractise.pdb
+C:\Users\yajuv\source\repos\C-Sharp-Practise\GetSetPractise\GetSetPractise\obj\Debug\GetSetPractise.csproj.AssemblyReference.cache
+C:\Users\yajuv\source\repos\C-Sharp-Practise\GetSetPractise\GetSetPractise\obj\Debug\GetSetPractise.csproj.CoreCompileInputs.cache
+C:\Users\yajuv\source\repos\C-Sharp-Practise\GetSetPractise\GetSetPractise\obj\Debug\GetSetPractise.exe
+C:\Users\yajuv\source\repos\C-Sharp-Practise\GetSetPractise\GetSetPractise\obj\Debug\GetSetPractise.pdb
