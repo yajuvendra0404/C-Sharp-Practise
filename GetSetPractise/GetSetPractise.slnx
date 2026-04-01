@@ -1,3 +1,4 @@
 <Solution>
-  <Project Path="GetSetPractise/GetSetPractise.csproj" />
+  <Project Path="GetSetPractise/GetSetPractise.csproj" Id="f056995a-bf30-4ac5-a24f-1f6c17c85c51" />
+  <Project Path="MyDll/MyDll.csproj" />
 </Solution>
