@@ -1,0 +1,6 @@
+# Ignore Visual Studio hidden folder
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates

@@ -47,8 +47,6 @@ namespace String_Practise
             Console.WriteLine(textSub.Substring(3));
             Console.WriteLine(textSub.Substring(3, 4));
 
-
-
             string text3 = "I like Java";
             string result = text3.Replace("Java", "C#");
             Console.WriteLine(result);
