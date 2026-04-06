@@ -11,16 +11,24 @@ namespace playground
     {
         static int breathCount;
 
-        static LifeCycle()
+        static LifeCycle() // Static constructor to initialize static members
         {
             breathCount = 0;
             LifeCycle.Breath();
         }
-        internal void Eat()
+        internal void Eat( string feedback = "Good food!")
         {
-            LifeCycle.breathCount++;
-            LifeCycle.Breath();
-            Console.WriteLine("Eating food...");
+            try
+            {
+                LifeCycle.breathCount++;
+                LifeCycle.Breath();
+                if(!feedback.ToLower().Contains("good")) throw new Exception("Food is not good!");
+                Console.WriteLine("Eating food...");
+            }
+            catch (Exception e) { 
+                Console.WriteLine(e.Message);
+            }
+            
         }
 
         internal void Sleep()
@@ -43,7 +51,7 @@ namespace playground
         {
 
             LifeCycle life = new LifeCycle();
-            life.Eat();
+            life.Eat("bad");
             life.Sleep();
             LifeCycle.Breath();
 
