@@ -55,6 +55,16 @@ namespace playground
             life.Sleep();
             LifeCycle.Breath();
 
+            Console.WriteLine(" ------------------------------------------------ ");
+            CollectionsPractise cp = new CollectionsPractise();
+            cp.AddToList(new int[] { 1, 2, 3, 4, 5 });
+            cp.PrintArrayList();
+            cp.ReverseAList();
+            cp.PrintArrayList();
+            cp.RemoveFromList(3);
+            cp.PrintArrayList();
+
+
         }
     }
 
