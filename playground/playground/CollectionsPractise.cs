@@ -9,8 +9,11 @@ using System.Xml.Serialization;
 
 namespace playground
 {
+    /*
+     * Arraylist practise
+    */
     internal class CollectionsPractise
-    {
+    { 
         
         ArrayList myList = new ArrayList();
 

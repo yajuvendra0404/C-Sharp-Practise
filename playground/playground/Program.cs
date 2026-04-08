@@ -55,7 +55,7 @@ namespace playground
             life.Sleep();
             LifeCycle.Breath();
 
-            Console.WriteLine(" ------------------------------------------------ ");
+            Console.WriteLine(" ################################################# ");
             CollectionsPractise cp = new CollectionsPractise();
             cp.AddToList(new int[] { 1, 2, 3, 4, 5 });
             cp.PrintArrayList();
@@ -63,6 +63,11 @@ namespace playground
             cp.PrintArrayList();
             cp.RemoveFromList(3);
             cp.PrintArrayList();
+            Console.WriteLine(" ################################################## ");
+            HashTablePractise hp = new HashTablePractise();
+            hp.createHashTable(new int[] { 1, 2, 3, 4, 5 });
+            hp.showHashTable();
+
 
 
         }
