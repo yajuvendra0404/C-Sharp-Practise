@@ -65,7 +65,7 @@ namespace playground
             cp.PrintArrayList();
             Console.WriteLine(" ################################################## ");
             HashTablePractise hp = new HashTablePractise();
-            hp.createHashTable(new int[] { 1, 2, 3, 4, 5 });
+            hp.createHashTable(new string[] { "apple", "orange", "grape", "tomato", "potato" });
             hp.showHashTable();
 
 

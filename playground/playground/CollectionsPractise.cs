@@ -16,7 +16,8 @@ namespace playground
     { 
         
         ArrayList myList = new ArrayList();
-
+        // ArrayList ml = new ArrayList(10); // constructor with initial capacity
+        // The capacity increases in multiples of 2.
         internal void AddToList(int [] ele) {
             try {
                 if (myList.Contains(ele)) throw new Exception("Element is already present in the list!");

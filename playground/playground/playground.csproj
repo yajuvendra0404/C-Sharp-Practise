@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="CollectionsPractise.cs" />
     <Compile Include="FileHandling.cs" />
+    <Compile Include="HashTablePractise.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

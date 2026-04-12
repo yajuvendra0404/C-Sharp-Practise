@@ -10,12 +10,12 @@ namespace playground
     internal class HashTablePractise
     {
         Hashtable myHash = new Hashtable();
-        internal void createHashTable(int[] value)
+        internal void createHashTable(string[] value)
         {
             int counter = 0;
-            foreach (int key in value) {
+            foreach (string data in value) {
                 counter++;
-                myHash.Add(counter, value);
+                myHash.Add(counter, data);
             }
         }
         internal void showHashTable() {
