@@ -50,24 +50,26 @@ namespace playground
         static void Main(string[] args)
         {
 
-            LifeCycle life = new LifeCycle();
-            life.Eat("bad");
-            life.Sleep();
-            LifeCycle.Breath();
+            //LifeCycle life = new LifeCycle();
+            //life.Eat("bad");
+            //life.Sleep();
+            //LifeCycle.Breath();
 
-            Console.WriteLine(" ################################################# ");
-            CollectionsPractise cp = new CollectionsPractise();
-            cp.AddToList(new int[] { 1, 2, 3, 4, 5 });
-            cp.PrintArrayList();
-            cp.ReverseAList();
-            cp.PrintArrayList();
-            cp.RemoveFromList(3);
-            cp.PrintArrayList();
-            Console.WriteLine(" ################################################## ");
+            //Console.WriteLine(" ################################################# ");
+
+            //CollectionsPractise cp = new CollectionsPractise();
+            //cp.AddToList(new int[] { 1, 2, 3, 4, 5 });
+            //cp.PrintArrayList();
+            //cp.ReverseAList();
+            //cp.PrintArrayList();
+            //cp.RemoveFromList(3);
+            //cp.PrintArrayList();
+            //Console.WriteLine(" ################################################## ");
+            
             HashTablePractise hp = new HashTablePractise();
             hp.createHashTable(new string[] { "apple", "orange", "grape", "tomato", "potato" });
             hp.showHashTable();
-
+            hp.showDataUsingEnumerator();
 
 
         }
